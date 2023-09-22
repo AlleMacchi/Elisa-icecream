@@ -13,23 +13,23 @@ import {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "https://elisa-icecream.netlify.app//",
       element: <Home />,
     },
     {
-        path: "/home",
+        path: "https://elisa-icecream.netlify.app//home",
         element: <Home />,
     },
     {
-      path: "/about",
+      path: "https://elisa-icecream.netlify.app//about",
       element: <About />,
     },
     {
-      path: "/flavours",
+      path: "https://elisa-icecream.netlify.app//flavours",
       element: <Flavours />,
     },
     {
-      path: "/contact",
+      path: "https://elisa-icecream.netlify.app//contact",
       element: <Contact />,
     },
   ]);
