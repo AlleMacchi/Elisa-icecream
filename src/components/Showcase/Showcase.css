@@ -1,0 +1,58 @@
+/* ............//// Showcase styling ////......... */
+
+.showcase-area {
+    height: 100vh;
+/*     background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("home-img.jpg"); */
+    background: url("home-img.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100%;
+    font-size: 2.6rem;
+    margin-left: 10%;
+    padding-top: 25%;
+  }
+  
+  .main-title {
+    margin-top: 0em;
+    color: #BC1C24;
+    font-family: 'Tangerine', cursive;
+    font-size: 10rem;
+    text-shadow: 3px 3px 5px white;
+  }
+
+@media (max-width: 1400px) {
+.main-title {
+    font-size: 7rem;
+}
+.showcase-container {
+    font-size: 2.0rem; 
+}
+}
+
+@media (max-width: 991px) {
+    .main-title {
+        font-size: 6rem;
+    }
+    .showcase-container {
+        font-size: 1.8rem; 
+    }
+}
+
+  @media (max-width: 770px) {
+    .main-title {
+        font-size: 5rem;
+    }
+
+  }

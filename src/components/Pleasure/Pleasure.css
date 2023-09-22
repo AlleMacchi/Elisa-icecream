@@ -1,0 +1,53 @@
+/* ............//// Showcase styling ////......... */
+
+.pleasure-area {
+    height: 50vh;
+    background: url("Gelato-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .pleasure-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  }
+  
+  .pleasure-main-title {
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #BC1C24;
+  }
+
+  @media (max-width: 1230px) {
+    .pleasure-main-title{
+      font-size: 2rem;
+      text-align: center;
+    }
+    }
+
+    @media (max-width: 890px) {
+      .pleasure-main-title{
+        font-size: 1.8rem;
+        text-align: center;
+      }
+      }
+
+  @media (max-width: 770px) {
+    .pleasure-main-title{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    }
+
+    @media (max-width: 564px) {
+      .pleasure-main-title{
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      }

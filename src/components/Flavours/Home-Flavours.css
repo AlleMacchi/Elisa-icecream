@@ -1,0 +1,68 @@
+/* ......//about us//...... */
+
+#about-flavours {
+    padding: 50px 0;
+    background: #FEFEF2;
+  }
+  
+  .about-wrapper-flavours {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #about-flavours h2 {
+    font-size: 5.3rem;
+    color: #BC1C24;
+    font-family: 'Tangerine', cursive;
+  }
+  
+  #about-flavours p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  #about-flavours .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .about-img-flavours {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation-flavours 1s ease-in-out forwards;
+    background: url("Home-Flovours-Gelato.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @keyframes about-img-animation-flavours {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-text-flavours {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation-flavours 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-text-animation-flavours {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-img-flavours{
+    display: block;
+    min-height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+  }

@@ -1,0 +1,48 @@
+.flavours-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ .flavours-container {
+    display: flex;
+    text-align: center;
+    flex-flow: wrap;
+    background: #FEFEF2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .flavours-heading{
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: #BC1C24;
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin-top: 30px;
+  }
+  .flavours-item {
+    background-color: #FEFEF2;
+    padding-bottom: 5px;
+    width: 24%;
+    border: 1px solid #BC1C24;
+    margin: 5px;
+  }
+  .flavours-item p{
+    color: #BC1C24;
+  }
+  @media (max-width: 1200px) {
+    .flavours-item {
+        width: 32%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .flavours-item {
+        width: 48%;
+    }
+  }
+  @media (max-width: 800px) {
+    .flavours-item {
+        width: 100%;
+    }
+  } 
+
